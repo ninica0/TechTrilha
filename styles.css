@@ -14,6 +14,7 @@ body{
     flex-direction: column;
     padding-top: 30px;
     background-color: rgba(255, 244, 197, 1);
+    padding-bottom: 1000px;
 }
 header img{
     width: 70px;
@@ -25,6 +26,7 @@ header{
    align-items: center;
    justify-content: center;
    gap: 40px;
+   padding-bottom: 30px;
 }
 
 
@@ -44,9 +46,15 @@ main{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 965px;
-    height: 444px;
     background-color: rgba(255, 218, 165, 1);
+    width: 100%;
+    height: 500px;
+  
+}
+
+main img{
+    width: 700px;
+    height: 350px;
 }
 main p{
     display: flex;
@@ -56,4 +64,11 @@ main p{
     font-family: "Joan", serif;
     width: 650px;
     color: rgba(148, 93, 38, 1);
+}
+
+.sobrenos h1{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    transform: rotate(-90deg);
 }
