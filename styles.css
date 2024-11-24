@@ -68,7 +68,107 @@ main p{
 
 .sobrenos h1{
     display: flex;
+    align-items: end;
+    justify-content: end;
+    transform: rotate(-90deg);
+    font-size: 40px;
+    letter-spacing: 35px;
+    width: 600px;
+    margin-right: -230px;
+    font-family: "Joan", serif;
+   
+}
+
+.sobrenos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-left: 40px;
+    color: rgba(148, 93, 38, 1);
+    font-family: "Joan", serif;
+
+}
+
+.sobrenos img{
+    width: 530px;
+    height: 300px;
+}
+
+.sobrenos p{
+    width: 530px;
+    font-size: 30px;
+}
+
+.roda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 300px;
+    gap: 25px;
+    padding-bottom: 100px;
+}
+
+
+.acomunidade{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  background-color: rgba(255, 233, 185, 1);
+      font-family: "Joan", serif;
+    font-size: 30px;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    gap: 100px;
+    padding-left: 145px;
+    color:rgba(148, 93, 38, 1) ;
+    /* height: 500px; */
+}
+
+.acomunidade img{
+    width: 580px;
+    height: 480px;
+    margin-right: -250px;
+}
+
+.comu{
+    font-family: "Joan", serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 320px;
+   
+}
+
+.comu p{
+    width: 400px;
+}
+
+.comu h1{
+    display: flex;
     align-items: start;
     justify-content: start;
-    transform: rotate(-90deg);
+    letter-spacing: 10px;
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.botao button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 30px;
+    border: none;
+    background-color: rgba(255, 122, 122, 1);
+    border-radius: 10px;
+    margin-right: -250px;
 }
