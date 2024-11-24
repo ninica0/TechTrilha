@@ -68,13 +68,13 @@ main p{
 
 .sobrenos h1{
     display: flex;
-    align-items: end;
-    justify-content: end;
+    align-items: start;
+    justify-content: start;
     transform: rotate(-90deg);
     font-size: 40px;
     letter-spacing: 35px;
     width: 600px;
-    margin-right: -230px;
+   padding-right: -230px;
     font-family: "Joan", serif;
    
 }
